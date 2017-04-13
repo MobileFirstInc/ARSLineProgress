@@ -22,9 +22,9 @@ final public class ARSLineProgressConfiguration: NSObject {
 	public static var backgroundViewDismissAnimationDuration: CFTimeInterval = 0.3
 	
 	public static var blurStyle: UIBlurEffectStyle = .dark
-	public static var circleColorOuter: CGColor = UIColor.ars_colorWithRGB(130.0, green: 149.0, blue: 173.0, alpha: 1.0).cgColor
-	public static var circleColorMiddle: CGColor = UIColor.ars_colorWithRGB(82.0, green: 124.0, blue: 194.0, alpha: 1.0).cgColor
-	public static var circleColorInner: CGColor = UIColor.ars_colorWithRGB(60.0, green: 132.0, blue: 196.0, alpha: 1.0).cgColor
+	public static var circleColorOuter: CGColor = UIColor.ars_colorWithRGB(40.0, green: 105.0, blue: 95.0, alpha: 1.0).cgColor
+	public static var circleColorMiddle: CGColor = UIColor.ars_colorWithRGB(40.0, green: 139.0, blue: 95.0, alpha: 1.0).cgColor
+	public static var circleColorInner: CGColor = UIColor.ars_colorWithRGB(40.0, green: 175.0, blue: 95.0, alpha: 1.0).cgColor
 	
 	public static var circleRotationDurationOuter: CFTimeInterval = 3.0
 	public static var circleRotationDurationMiddle: CFTimeInterval = 1.5
@@ -36,7 +36,7 @@ final public class ARSLineProgressConfiguration: NSObject {
 	
 	public static var successCircleAnimationDrawDuration: CFTimeInterval = 0.7
 	public static var successCircleLineWidth: CGFloat = 2.0
-	public static var successCircleColor: CGColor = UIColor.ars_colorWithRGB(130.0, green: 149.0, blue: 173.0, alpha: 1.0).cgColor
+	public static var successCircleColor: CGColor = UIColor.ars_colorWithRGB(40.0, green: 175.0, blue: 95.0, alpha: 1.0).cgColor
 	
 	public static var failCrossAnimationDrawDuration: CFTimeInterval = 0.4
 	public static var failCrossLineWidth: CGFloat = 2.0
@@ -44,7 +44,7 @@ final public class ARSLineProgressConfiguration: NSObject {
 	
 	public static var failCircleAnimationDrawDuration: CFTimeInterval = 0.7
 	public static var failCircleLineWidth: CGFloat = 2.0
-	public static var failCircleColor: CGColor = UIColor.ars_colorWithRGB(130.0, green: 149.0, blue: 173.0, alpha: 1.0).cgColor
+	public static var failCircleColor: CGColor = UIColor.ars_colorWithRGB(175.0, green: 40.0, blue: 30.0, alpha: 1.0).cgColor
 	
 	/**
 	Use this function to restore all properties to their default values.
@@ -59,10 +59,10 @@ final public class ARSLineProgressConfiguration: NSObject {
 		ARSLineProgressConfiguration.backgroundViewPresentAnimationDuration = 0.3
 		ARSLineProgressConfiguration.backgroundViewDismissAnimationDuration = 0.3
 		
-		ARSLineProgressConfiguration.blurStyle = .dark
-		ARSLineProgressConfiguration.circleColorOuter = UIColor.ars_colorWithRGB(130.0, green: 149.0, blue: 173.0, alpha: 1.0).cgColor
-		ARSLineProgressConfiguration.circleColorMiddle = UIColor.ars_colorWithRGB(82.0, green: 124.0, blue: 194.0, alpha: 1.0).cgColor
-		ARSLineProgressConfiguration.circleColorInner = UIColor.ars_colorWithRGB(60.0, green: 132.0, blue: 196.0, alpha: 1.0).cgColor
+		ARSLineProgressConfiguration.blurStyle = .light
+		ARSLineProgressConfiguration.circleColorOuter = UIColor.ars_colorWithRGB(40.0, green: 105.0, blue: 95.0, alpha: 1.0).cgColor
+		ARSLineProgressConfiguration.circleColorMiddle = UIColor.ars_colorWithRGB(40.0, green: 139.0, blue: 95.0, alpha: 1.0).cgColor
+		ARSLineProgressConfiguration.circleColorInner = UIColor.ars_colorWithRGB(40.0, green: 175.0, blue: 95.0, alpha: 1.0).cgColor
 		
 		ARSLineProgressConfiguration.circleRotationDurationOuter = 3.0
 		ARSLineProgressConfiguration.circleRotationDurationMiddle = 1.5
@@ -74,7 +74,7 @@ final public class ARSLineProgressConfiguration: NSObject {
 		
 		ARSLineProgressConfiguration.successCircleAnimationDrawDuration = 0.7
 		ARSLineProgressConfiguration.successCircleLineWidth = 2.0
-		ARSLineProgressConfiguration.successCircleColor = UIColor.ars_colorWithRGB(130.0, green: 149.0, blue: 173.0, alpha: 1.0).cgColor
+		ARSLineProgressConfiguration.successCircleColor = UIColor.ars_colorWithRGB(40.0, green: 175.0, blue: 95.0, alpha: 1.0).cgColor
 		
 		ARSLineProgressConfiguration.failCrossAnimationDrawDuration = 0.4
 		ARSLineProgressConfiguration.failCrossLineWidth = 2.0
@@ -82,7 +82,7 @@ final public class ARSLineProgressConfiguration: NSObject {
 		
 		ARSLineProgressConfiguration.failCircleAnimationDrawDuration = 0.7
 		ARSLineProgressConfiguration.failCircleLineWidth = 2.0
-		ARSLineProgressConfiguration.failCircleColor = UIColor.ars_colorWithRGB(130.0, green: 149.0, blue: 173.0, alpha: 1.0).cgColor
+		ARSLineProgressConfiguration.failCircleColor = UIColor.ars_colorWithRGB(175.0, green: 40.0, blue: 30.0, alpha: 1.0).cgColor
 	}
 	
 }
