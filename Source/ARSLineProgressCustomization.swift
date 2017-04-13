@@ -32,7 +32,7 @@ final public class ARSLineProgressConfiguration: NSObject {
 	
 	public static var checkmarkAnimationDrawDuration: CFTimeInterval = 0.4
 	public static var checkmarkLineWidth: CGFloat = 2.0
-	public static var checkmarkColor: CGColor = UIColor.ars_colorWithRGB(255.0, green: 255.0, blue: 255.0, alpha: 0.9).cgColor
+	public static var checkmarkColor: CGColor = UIColor.ars_colorWithRGB(74.0, green: 74.0, blue: 74.0, alpha: 0.9).cgColor
 	
 	public static var successCircleAnimationDrawDuration: CFTimeInterval = 0.7
 	public static var successCircleLineWidth: CGFloat = 2.0
@@ -70,7 +70,7 @@ final public class ARSLineProgressConfiguration: NSObject {
 		
 		ARSLineProgressConfiguration.checkmarkAnimationDrawDuration = 0.4
 		ARSLineProgressConfiguration.checkmarkLineWidth = 2.0
-		ARSLineProgressConfiguration.checkmarkColor = UIColor.ars_colorWithRGB(255.0, green: 255.0, blue: 255.0, alpha: 0.9).cgColor
+		ARSLineProgressConfiguration.checkmarkColor = UIColor.ars_colorWithRGB(74.0, green: 74.0, blue: 74.0, alpha: 0.9).cgColor
 		
 		ARSLineProgressConfiguration.successCircleAnimationDrawDuration = 0.7
 		ARSLineProgressConfiguration.successCircleLineWidth = 2.0
